@@ -26,6 +26,11 @@ var triesPerSecond = document.getElementById('speed').value //self explanatory
 console.log("\n")
 getGiftCode = function () {
     let code = '';
+    let code1 = '';
+    let code2 = '';
+    let code3 = '';
+    let code4 = '';
+  
     let dict = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     for(var i = 0; i < 5; i++){
         code = code + dict.charAt(Math.floor(Math.random() * dict.length));
